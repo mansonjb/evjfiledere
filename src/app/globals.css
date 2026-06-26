@@ -1,0 +1,236 @@
+@import "tailwindcss";
+
+/* ─── Design tokens ─────────────────────────────────────────────────────────── */
+:root {
+  --ocean: #0D2B45;
+  --coral: #E8714A;
+  --champagne: #C8A96E;
+  --cream: #FBF8F3;
+  --blush: #F7D4C5;
+  --teal: #1A5276;
+  --sand: #E8DDD0;
+
+  /* Tailwind v4 theme bridge */
+  --color-ocean: var(--ocean);
+  --color-coral: var(--coral);
+  --color-champagne: var(--champagne);
+  --color-cream: var(--cream);
+  --color-blush: var(--blush);
+  --color-teal: var(--teal);
+  --color-sand: var(--sand);
+
+  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-dm-sans), "DM Sans", system-ui, sans-serif;
+}
+
+/* ─── Tailwind v4 theme ─────────────────────────────────────────────────────── */
+@theme inline {
+  --color-ocean: var(--ocean);
+  --color-coral: var(--coral);
+  --color-champagne: var(--champagne);
+  --color-cream: var(--cream);
+  --color-blush: var(--blush);
+  --color-teal: var(--teal);
+  --color-sand: var(--sand);
+  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-dm-sans), "DM Sans", system-ui, sans-serif;
+}
+
+/* ─── Base reset & typography ────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--ocean);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--ocean);
+}
+
+/* ─── Custom scrollbar ───────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--champagne);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--coral);
+}
+
+/* ─── Utility: editorial highlight bar ──────────────────────────────────────── */
+.highlight-coral {
+  background-color: var(--coral);
+  color: var(--cream);
+  padding: 0 0.25em;
+  display: inline;
+}
+
+.highlight-champagne {
+  background-color: var(--champagne);
+  color: var(--ocean);
+  padding: 0 0.25em;
+  display: inline;
+}
+
+/* ─── Utility: coral underline ───────────────────────────────────────────────── */
+.underline-coral {
+  text-decoration: underline;
+  text-decoration-color: var(--coral);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+.overline-coral {
+  border-top: 3px solid var(--coral);
+  padding-top: 0.5rem;
+}
+
+/* ─── Utility: badge / ribbon ────────────────────────────────────────────────── */
+.badge-coral {
+  background-color: var(--coral);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.85rem;
+  border-radius: 100px;
+}
+
+.badge-champagne {
+  background-color: var(--champagne);
+  color: var(--ocean);
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.85rem;
+  border-radius: 100px;
+}
+
+/* ─── Utility: card with coral top border ─────────────────────────────────── */
+.card-editorial {
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(13, 43, 69, 0.08);
+  border-top: 4px solid var(--coral);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-editorial:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(13, 43, 69, 0.14);
+}
+
+/* ─── Utility: wave pattern divider ─────────────────────────────────────────── */
+.wave-top {
+  position: relative;
+}
+.wave-top::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: inherit;
+  clip-path: ellipse(55% 100% at 50% 0%);
+}
+
+/* ─── Utility: section label ─────────────────────────────────────────────────── */
+.section-label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--coral);
+}
+
+/* ─── Utility: decorative quote mark ────────────────────────────────────────── */
+.quote-mark {
+  font-family: var(--font-serif);
+  font-size: 6rem;
+  line-height: 0.8;
+  color: var(--blush);
+  display: block;
+  margin-bottom: -1rem;
+  user-select: none;
+}
+
+/* ─── Utility: gradient overlay ─────────────────────────────────────────────── */
+.overlay-gradient {
+  background: linear-gradient(
+    to top,
+    rgba(13, 43, 69, 0.85) 0%,
+    rgba(13, 43, 69, 0.45) 50%,
+    rgba(13, 43, 69, 0.15) 100%
+  );
+}
+
+/* ─── Utility: hero gradient ────────────────────────────────────────────────── */
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(13, 43, 69, 0.78) 0%,
+    rgba(26, 82, 118, 0.55) 50%,
+    rgba(232, 113, 74, 0.25) 100%
+  );
+}
+
+/* ─── Animations ─────────────────────────────────────────────────────────────── */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scrollBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.animate-scroll-bounce {
+  animation: scrollBounce 1.6s ease-in-out infinite;
+}
