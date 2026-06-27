@@ -192,7 +192,7 @@ export default function JourneeIleDeReVeloBateauPage() {
           </div>
           <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-lg md:translate-y-8">
             <Image
-              src="https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?w=800&q=80"
+              src="https://images.unsplash.com/photo-1744709561340-c67e00eb73d2?w=800&q=80"
               alt="Village Saint-Martin-de-Ré depuis la mer"
               fill
               className="object-cover"

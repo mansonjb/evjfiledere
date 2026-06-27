@@ -80,7 +80,7 @@ export default function BaladePriveeEvjfPage() {
       {/* Hero */}
       <section className="relative h-[55vh] min-h-[360px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1609766418204-94aef0fb48f4?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1688675109833-fe7ef928a2f7?w=1920&q=80"
           alt="Balade privée EVJF bateau Île de Ré groupe"
           fill
           className="object-cover"

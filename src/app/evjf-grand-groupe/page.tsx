@@ -37,7 +37,7 @@ export default function EvjfGrandGroupePage() {
       {/* Hero */}
       <section className="relative h-[55vh] min-h-[360px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1620035118505-50d949de137e?w=1920&q=80"
           alt="EVJF grand groupe plusieurs bateaux Île de Ré"
           fill
           className="object-cover"

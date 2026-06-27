@@ -41,7 +41,7 @@ export default function EvjfGroupe48Page() {
       {/* Hero */}
       <section className="relative h-[55vh] min-h-[360px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1609766418204-94aef0fb48f4?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1688675109833-fe7ef928a2f7?w=1920&q=80"
           alt="EVJF groupe 4 à 8 personnes bateau Île de Ré"
           fill
           className="object-cover"

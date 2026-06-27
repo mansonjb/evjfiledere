@@ -59,7 +59,7 @@ export default function EvjfDecouverteIleDeRePage() {
       {/* Hero */}
       <section className="relative h-[55vh] min-h-[360px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1744709561340-c67e00eb73d2?w=1920&q=80"
           alt="Île de Ré découverte EVJF village et mer"
           fill
           className="object-cover"

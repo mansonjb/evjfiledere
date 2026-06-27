@@ -12,7 +12,7 @@ const experiences = [
     icon: "⛵",
     title: "Navigation au Coucher du Soleil",
     description: "Voguez sur le Pertuis Charentais sous des ciels enflammés depuis le voilier privatisé.",
-    image: "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1620035118505-50d949de137e?w=800&q=80",
     span: "",
   },
   {
@@ -40,7 +40,7 @@ const experiences = [
     icon: "🧘‍♀️",
     title: "Yoga sur l'Eau",
     description: "Séance de yoga sur le pont du catamaran amarré, pour commencer votre EVJF en douceur.",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1755707036234-4c68bf8b69a0?w=800&q=80",
     span: "",
   },
 ];

@@ -62,7 +62,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="relative h-[45vh] min-h-[300px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1755707036234-4c68bf8b69a0?w=1920&q=80"
           alt="Demandez votre devis EVJF en mer Île de Ré"
           fill
           className="object-cover"

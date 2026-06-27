@@ -77,7 +77,7 @@ export default function SoireeLaRochellePage() {
       {/* Hero */}
       <section className="relative h-[55vh] min-h-[360px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1570804783899-24a0cbe98e33?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1744709561288-74517c00d17c?w=1920&q=80"
           alt="Soirée EVJF La Rochelle Vieux Port tours médiévales"
           fill
           className="object-cover"
@@ -213,7 +213,7 @@ export default function SoireeLaRochellePage() {
       <section className="max-w-5xl mx-auto px-6 py-16">
         <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl">
           <Image
-            src="https://images.unsplash.com/photo-1570804783899-24a0cbe98e33?w=1920&q=80"
+            src="https://images.unsplash.com/photo-1744709561288-74517c00d17c?w=1920&q=80"
             alt="La Rochelle Vieux Port soirée EVJF tours médiévales"
             fill
             className="object-cover"

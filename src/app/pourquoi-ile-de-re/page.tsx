@@ -170,7 +170,7 @@ export default function PourquoiIleDeRePage() {
       {/* Hero */}
       <section className="relative h-[60vh] min-h-[420px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1744709561340-c67e00eb73d2?w=1920&q=80"
           alt="Île de Ré vue du ciel - destination EVJF idéale"
           fill
           className="object-cover"
@@ -328,7 +328,7 @@ export default function PourquoiIleDeRePage() {
             </div>
             <div className="relative rounded-2xl overflow-hidden aspect-[3/4] mt-8">
               <Image
-                src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=600&q=80"
+                src="https://images.unsplash.com/photo-1620035118505-50d949de137e?w=600&q=80"
                 alt="Navigation coucher de soleil Île de Ré"
                 fill
                 className="object-cover"

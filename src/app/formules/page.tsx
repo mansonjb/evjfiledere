@@ -24,7 +24,7 @@ const formules = [
     badge: null,
     price: "À partir de 49€/personne",
     capacity: "4 à 12 personnes",
-    image: "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=900&q=80",
+    image: "https://images.unsplash.com/photo-1620035118505-50d949de137e?w=900&q=80",
     alt: "Coucher de soleil en catamaran EVJF Île de Ré",
     description:
       "La formule parfaite pour commencer en beauté votre EVJF. Montez à bord d'un catamaran ou d'un voilier pour 2 heures de navigation privatisée au coucher du soleil, champagne et amuse-bouches inclus. Le ciel pastel de l'Atlantique, le clapot des vagues, vos amies autour de vous : ce moment restera gravé dans vos mémoires.",
@@ -45,7 +45,7 @@ const formules = [
     badge: "Le plus populaire",
     price: "À partir de 65€/personne",
     capacity: "4 à 15 personnes",
-    image: "https://images.unsplash.com/photo-1574484284002-952d92456975?w=900&q=80",
+    image: "https://images.unsplash.com/photo-1666803685407-009be9f0a03a?w=900&q=80",
     alt: "Dégustation d'huîtres en mer EVJF Île de Ré",
     description:
       "Notre formule signature, plébiscitée par des centaines de groupes EVJF. Cap sur les parcs ostréicoles de l'Île de Ré à bord d'un catamaran privatisé. Votre skipper vous emmène au coeur des bassins d'élevage où vous dégusterez les huîtres directement sorties de l'eau, accompagnées d'un verre de vin blanc Charentes. Une immersion authentique dans la culture maritime de l'île.",
@@ -137,7 +137,7 @@ export default function FormulesPage() {
       {/* Hero */}
       <section className="relative h-[50vh] min-h-[340px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1755707036234-4c68bf8b69a0?w=1920&q=80"
           alt="Formules EVJF en mer Île de Ré"
           fill
           className="object-cover"

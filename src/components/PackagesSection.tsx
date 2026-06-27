@@ -9,7 +9,7 @@ const packages = [
       "2h de navigation privatisée au coucher du soleil, champagne & amuse-bouches, 8 personnes max",
     price: "À partir de 49€/pers",
     inclus: ["Catamaran ou voilier", "Capitaine", "Champagne & grignotages"],
-    image: "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1620035118505-50d949de137e?w=800&q=80",
   },
   {
     title: "Cap Huîtres & Champagne",

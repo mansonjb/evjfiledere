@@ -47,7 +47,7 @@ export const metadata: Metadata = {
       "Croisières privées, huîtres & champagne, coucher de soleil en mer. L'EVJF nautique de luxe sur l'Île de Ré et La Rochelle.",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1620035118505-50d949de137e?w=1200&q=80",
         width: 1200,
         height: 630,
         alt: "EVJF en mer Île de Ré – La Dernière Escale",

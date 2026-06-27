@@ -44,7 +44,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=1920&q=80')",
+            "url('https://images.unsplash.com/photo-1620035118505-50d949de137e?w=1920&q=80')",
         }}
         aria-hidden="true"
       />

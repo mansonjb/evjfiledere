@@ -83,7 +83,7 @@ const experiences = [
     duration: "2h",
     minPersons: 4,
     priceFrom: "35€/pers",
-    image: "https://images.unsplash.com/photo-1500932334442-8761ee4810a7?w=900&q=80",
+    image: "https://images.unsplash.com/photo-1506939890471-05f34fa6648d?w=900&q=80",
     alt: "Baignade et snorkeling en mer Île de Ré EVJF",
     description:
       "Direction les eaux cristallines au large de la côte sauvage de l'Île de Ré. Le catamaran mouille l'ancre dans une crique accessible uniquement par la mer, et le groupe plonge pour explorer les fonds marins. Poissons, méduses (inoffensives !), végétation sous-marine : le masque et le tuba sont fournis, la curiosité est à vous.",
@@ -95,7 +95,7 @@ const experiences = [
     duration: "2h",
     minPersons: 4,
     priceFrom: "45€/pers",
-    image: "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=900&q=80",
+    image: "https://images.unsplash.com/photo-1620035118505-50d949de137e?w=900&q=80",
     alt: "Apéritif champagne en catamaran EVJF Île de Ré",
     description:
       "Champagne, rosé de Ré, planches de charcuterie et fromages locaux : l'apéritif EVJF version nautique. Montez à bord, installez-vous dans le filet du catamaran et laissez le vent atlantique porter vos rires. Ambiance détendue, musique en fond, soleil ou étoiles selon l'horaire choisi. La mise en bouche parfaite avant une soirée en ville.",
@@ -107,7 +107,7 @@ const experiences = [
     duration: "2h30",
     minPersons: 4,
     priceFrom: "55€/pers",
-    image: "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?w=900&q=80",
+    image: "https://images.unsplash.com/photo-1605472075294-4c73b9909d08?w=900&q=80",
     alt: "Navigation nocturne étoiles crépuscule Île de Ré EVJF",
     description:
       "Partez au crépuscule et revenez sous les étoiles. La navigation nocturne a quelque chose de magique : les lumières de La Rochelle et de l'Île de Ré qui scintillent sur l'eau, le ciel qui vire du rouge au noir en une heure, la Voie Lactée si les conditions s'y prêtent. Votre skipper vous apprend à lire les étoiles. Une expérience EVJF hors du commun.",
@@ -210,7 +210,7 @@ export default function ExperiencesPage() {
           </div>
           <div className="relative rounded-2xl overflow-hidden aspect-[4/5]">
             <Image
-              src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=900&q=80"
+              src="https://images.unsplash.com/photo-1755707036234-4c68bf8b69a0?w=900&q=80"
               alt="Programme EVJF personnalisé Île de Ré"
               fill
               className="object-cover"

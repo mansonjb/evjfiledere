@@ -64,7 +64,7 @@ export default function HuitresEvjfIleDeRePage() {
       {/* Hero */}
       <section className="relative h-[55vh] min-h-[360px] flex items-end">
         <Image
-          src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1666803685407-009be9f0a03a?w=1920&q=80"
           alt="Dégustation huîtres EVJF Île de Ré en mer"
           fill
           className="object-cover"
@@ -115,7 +115,7 @@ export default function HuitresEvjfIleDeRePage() {
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=900&q=80"
+                src="https://images.unsplash.com/photo-1666803685407-009be9f0a03a?w=900&q=80"
                 alt="Huîtres fraîches de l'Île de Ré dégustation"
                 fill
                 className="object-cover"
